@@ -1,0 +1,96 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Định dạng thân trang */
+body {
+    /* Để nền tùy chỉnh khi cần */
+}
+
+/* Banner quảng cáo */
+.banner-ads img {
+    height: 270px;
+    width: 100%;
+    display: block;
+}
+
+/* Phần ngày và thời tiết */
+.date-time {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    background-color: #133E87;
+    border-top: 1px solid #fff;
+}
+.date-time .searchmenu {
+    display: flex;
+    align-self: center;
+
+}
+
+.date-time p {
+    color: #F3F3E0;
+    font-size: 15px;
+    padding: 15px 10px 15px 0;
+    border-right: 0.5px solid #fff;
+}
+
+/* Định dạng Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #133E87;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Thanh điều hướng */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #133E87;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 50px 15px 15px;
+    background-color: #133E87;
+    color: white;
+    
+}
+
+.dropdown:hover .dropbtn {
+    text-decoration: underline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6EACDA;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: white;
+}
+
